@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day</title>
+    <link rel="stylesheet" href="css/day.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/3a2cd470dd.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@200&family=Cookie&family=Dancing+Script:wght@400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@100;300;400;500;600;700;900&family=Outfit:wght@100;200&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navBar sticky-top">
+        <div class="row">
+            <div class="left col col-lg-6 col-md-6 col-sm-6">
+                <i class="icon fas fa-location-dot fa-2x"></i>
+                <h3><%= CityName %></h3>
+            </div>
+            <div class="right col col-lg-6 col-md-6 col-sm-6">
+                <h2><%= day %></h2>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <div class="content">
+            <h1>Good morning🌞</h1>
+            <h2><%=  tmp %>°C</h2>
+            <h2><%= description %></h2>
+            <img class="iconImg" src=<%= iconImgSrc %> alt="iconImg">
+        </div>
+        <form action="/day" method="post">
+            <button class="btn btn-info btn-lg btn-outline dark" type="submit" name="submit">Check more</button>
+        </form>
+    </div>            
+</body>
+</html>

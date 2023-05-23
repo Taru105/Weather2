@@ -1,0 +1,46 @@
+*{    
+    padding: 0;
+    margin: 0px;
+}
+body{
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.navBar{
+    text-align: center;
+    margin: auto;
+    background-color: #3c3f45;
+    background-image: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+    padding: 5.5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.left{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    color: white;    
+}
+.icon:hover{
+    color: rgb(97, 97, 97);
+}
+.top{
+    background: rgba(0,0,0,0.52) url(day1.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Merriweather', serif;
+    
+}
+.top .iconImg:hover{
+    width:110px;
+}
+.content h1{
+    font-family: 'Cookie', cursive;
+}

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.main{
+    background: rgba(0,0,0,0.05) url(bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+}
+.main h3{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.query{
+    padding-top: 1.2rem;
+}
+.query input{
+    padding: 1rem;
+    border-radius: 7.5px;
+    border-style: none;
+    color: #565656;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.query button{
+    padding: 0.85rem;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 22.5px;
+    border-style: none;
+    background-color: white;
+    cursor: pointer;
+}
+.query button:hover{
+    color: rgb(247, 106, 63);
+    font-size: 1.1rem;
+}
+.foot{
+    padding-top: 95px;
+}
+.foot h5{
+    padding: 7px;
+    font-size: 1.1rem;
+    font-family: 'Arima', cursive;
+}
+.foot img{
+    width: 100px;
+}
